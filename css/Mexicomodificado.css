@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@font-face { font-family:"Arial";src:url("#FontID0") format(svg)}
+.str2 {stroke:#37ABC8;stroke-width:13.25}
+.str1 {stroke:white;stroke-width:13.25}
+.str0 {stroke:white;stroke-width:13.27}
+.str3 {stroke:black;stroke-width:20}
+.fil10 {fill:none}
+/*Letras Estados*/
+.fil7 {fill:black}
+/* colores estados*/
+.fil0 {fill:#B6B5B4}
+.fil0:hover {fill:#87CEEB; cursor: pointer;}
+.fil4 {fill:#BAB9B8}
+.fil4:hover {fill:#87CEFA; cursor: pointer;}
+.fil2 {fill:#C2C1C1}
+.fil2:hover {fill:#00BFFF; cursor: pointer;}
+.fil6 {fill:#C9C8C8}
+.fil6:hover {fill:#00BFFF; cursor: pointer;}
+.fil1 {fill:#D0CFCF}
+.fil1:hover {fill:#6495ED; cursor: pointer;}
+.fil3 {fill:#DEDEDD}
+.fil3:hover {fill:#7B68EE; cursor: pointer;}
+.fil5 {fill:#F6C201}
+.fil1:hover {fill:#4169E1; cursor: pointer;}
+.fil8 {fill:white}
+.fnt1 {font-weight:normal;font-size:121.27px;font-family:'Arial'}
+.fnt0 {font-weight:normal;font-size:404.32px;font-family:'Arial'}
+
+svg{
+  width: 80%;
+    margin-top: 0px;
+  margin-left: 10%;
+}
+

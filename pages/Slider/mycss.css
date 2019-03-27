@@ -65,7 +65,7 @@
 .footermapa{
      
     position: absolute;
-    bottom: 0;
+    top: 125%;
     background-color: #12233c;
     padding: 5px;
     text-align: center;
