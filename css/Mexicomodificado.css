@@ -27,8 +27,9 @@
 .fnt0 {font-weight:normal;font-size:404.32px;font-family:'Arial'}
 
 svg{
-  width: 80%;
+  width: 100%;
     margin-top: 0px;
   margin-left: 10%;
+    margin-right: 10%;
 }
 

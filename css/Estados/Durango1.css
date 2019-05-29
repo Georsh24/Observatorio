@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.str9 {stroke:white;stroke-width:25.4;stroke-linejoin:round}
+.str10 {stroke:black;stroke-width:33.87;stroke-linecap:round;stroke-linejoin:round}
+.str2 {stroke:gainsboro;stroke-width:131.23;stroke-linecap:round;stroke-linejoin:round}
+.str4 {stroke:black;stroke-width:55.03;stroke-linecap:round;stroke-linejoin:round}
+.str3 {stroke:#FEFEFF;stroke-width:55.03;stroke-linecap:round;stroke-linejoin:round}
+.str5 {stroke:#FEFEFF;stroke-width:160.87;stroke-linecap:round;stroke-linejoin:round}
+.str11 {stroke:black;stroke-width:50.8;stroke-linecap:round;stroke-linejoin:round}
+.str12 {stroke:#FEFEFF;stroke-width:50.8;stroke-linecap:round;stroke-linejoin:round}
+.str8 {stroke:aqua;stroke-width:12.7;stroke-linecap:round;stroke-linejoin:round}
+.str6 {stroke:#8000FF;stroke-width:7.62;stroke-linecap:round;stroke-linejoin:round}
+.str1 {stroke:#E10000;stroke-width:7.62;stroke-linecap:round;stroke-linejoin:round}
+.str0 {stroke:#FEFEFF;stroke-width:7.62;stroke-linecap:round;stroke-linejoin:round}
+.str7 {stroke:fuchsia;stroke-width:7.62;stroke-linecap:round;stroke-linejoin:round}
+.fil0 {fill:none}
+.fil7 {fill:none;fill-rule:nonzero}
+.fil1 {fill:#8000FF}
+.fil3 {fill:silver}
+.fil4 {fill:#E10000}
+.fil2 {fill:fuchsia}
+.fil8 {fill:white}
+.fil6 {fill:black;fill-rule:nonzero}
+.fil5 {fill:#E10000;fill-rule:nonzero}
+svg{
+  width: 600px;
+    margin-top: -100px;
+  margin-left: 20%;
+}

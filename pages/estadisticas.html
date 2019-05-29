@@ -10,62 +10,64 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="./Slider/mycss.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #12233c;"> <!--color-->
-        <div class="container">
+    <div class="ss">
+
+        <nav class="navbar navbar-expand-lg" style="background-color: #12233c;">
+            <!--color-->
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                    <a class="nav-link" href="./Slider/index.html">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                     </li>
-                        
+
                     <li class="nav-item">
-                    <a class="nav-link" href="./mapa.html">Mapa</a>
+                        <a class="nav-link" href="mapa.html">Mapa</a>
                     </li>
-                            
+
                     <li class="nav-item">
-                    <a class="nav-link" href="./estadisticas.html">Nosotros</a>
+                        <a class="nav-link" href="about.html">Contacto</a>
                     </li>
-                            
-                    <li class="nav-item">
-                    <a class="nav-link" href="./about.html">Contacto</a>
-                    </li>
-                </ul>   
+                </ul>
             </div>
-        </div>
+    </div>
     </nav>
     <div class="container">
         <div class="tabla">
 
             <div class="titulo">
                 <h2>
-                    Lorem
+                    Población
                 </h2>
             </div>
             <div class="precio">
-                <h3>$ <span>Lorem ipsum dolor.</span></h3>
+                <h3> <span>Población actual</span></h3>
             </div>
             <div class="descripcion">
                 <ul>
-                    <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor.</li>
+                    <li><i class="fas fa-check-circle"></i> 1759848.00</li>
                 </ul>
                 <ul>
-                    <li><i class="fas fa-water"></i> Lorem ipsum dolor.</li>
+                    <li><i class="fas fa-water"></i> Población desempleada 15 años en adelante.</li>
                 </ul>
                 <ul>
-                    <li><i class="fas fa-users"></i> Lorem ipsum dolor.</li>
+                    <li><i class="fas fa-users"></i> 32810.00</li>
+                </ul>
+                <ul>
+                    <li>
+                        <ion-icon name="arrow-dropdown-circle" style="color: orange" size="large"></ion-icon>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -74,21 +76,27 @@
             <div class="titulo">
                 <span class=""></span>
                 <h2>
-                    Lorem
+                    Agua entubada
                 </h2>
             </div>
             <div class="precio">
-                <h3>$ <span>Lorem ipsum dolor.</span></h3>
+                <h3><span>Porcentaje de personas con agua entubada</span></h3>
             </div>
             <div class="descripcion">
                 <ul>
-                    <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor.</li>
+                    <li><i class="fas fa-check-circle"></i> 97.04%</li>
                 </ul>
                 <ul>
-                    <li><li><i class="fas fa-water"></i> Lorem ipsum dolor.</li>
+                    <li>
+                        <li><i class="fas fa-water"></i> </li>
                 </ul>
                 <ul>
-                    <li><i class="fas fa-users"></i> Lorem ipsum dolor.</li>
+                    <li><i class="fas fa-users"></i> </li>
+                </ul>
+                <ul>
+                    <li>
+                        <ion-icon name="arrow-dropup-circle" style="color: green" size="large"></ion-icon>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -97,21 +105,51 @@
             <div class="titulo">
                 <span class=""></span>
                 <h2>
-                    Lorem
+                    % viviendas con drenaje
                 </h2>
             </div>
             <div class="precio">
-                <h3>$ <span>Lorem ipsum dolor.</span></h3>
+                <h3><span>Porcentaje de viviendas con drenaje</span></h3>
             </div>
             <div class="descripcion">
                 <ul>
-                    <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor.</li>
+                    <li><i class="fas fa-check-circle"></i> 92.41%</li>
                 </ul>
                 <ul>
-                    <li><li><i class="fas fa-water"></i> Lorem ipsum dolor.</li>
+                    <li>
+                        <li><i class="fas fa-water"></i> </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <ion-icon name="arrow-dropup-circle" style="color:green" size="large"></ion-icon>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tabla">
+            <div class="titulo">
+                <span class=""></span>
+                <h3>
+                    % viviendas con electricidad
+                </h3>
+            </div>
+            <div class="precio">
+                <h3><span>Porcentaje de viviendas con electricidad</span></h3>
+            </div>
+            <div class="descripcion">
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> 97.70%</li>
+                </ul>
+
+                <ul>
+                    <li><i class="fas fa-users"></i> </li>
                 </ul>
                 <ul>
-                    <li><i class="fas fa-users"></i> Lorem ipsum dolor.</li>
+                    <li>
+                        <ion-icon name="arrow-dropup-circle" style="color: green" size="large"></ion-icon>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -120,21 +158,24 @@
             <div class="titulo">
                 <span class=""></span>
                 <h2>
-                    Lorem
+                    Indicador Trimestral
                 </h2>
             </div>
             <div class="precio">
-                <h3>$ <span>Lorem ipsum dolor.</span></h3>
+                <h3>$ <span>de la actividad economica</span></h3>
             </div>
             <div class="descripcion">
                 <ul>
-                    <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor.</li>
+                    <li><i class="fas fa-check-circle"></i> 0.59%</li>
+                </ul>
+
+                <ul>
+                    <li><i class="fas fa-users"></i> </li>
                 </ul>
                 <ul>
-                    <li><li><i class="fas fa-water"></i> Lorem ipsum dolor.</li>
-                </ul>
-                <ul>
-                    <li><i class="fas fa-users"></i> Lorem ipsum dolor.</li>
+                    <li>
+                        <ion-icon name="arrow-dropdown-circle" style="color: RED" size="large"></ion-icon>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -143,54 +184,35 @@
             <div class="titulo">
                 <span class=""></span>
                 <h2>
-                    Lorem
+                    Población economicamente activa
                 </h2>
             </div>
             <div class="precio">
-                <h3>$ <span>Lorem ipsum dolor.</span></h3>
+                <h3> <span>804613.00</span></h3>
             </div>
             <div class="descripcion">
                 <ul>
-                    <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor.</li>
+                    <li><i class="fas fa-check-circle"></i> </li>
                 </ul>
                 <ul>
-                    <li><li><i class="fas fa-water"></i> Lorem ipsum dolor.</li>
+                    <li>
+                        <li><i class="fas fa-water"></i> </li>
                 </ul>
                 <ul>
-                    <li><i class="fas fa-users"></i> Lorem ipsum dolor.</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="tabla">
-            <div class="titulo">
-                <span class=""></span>
-                <h2>
-                    Lorem
-                </h2>
-            </div>
-            <div class="precio">
-                <h3>$ <span>Lorem ipsum dolor.</span></h3>
-            </div>
-            <div class="descripcion">
-                <ul>
-                    <li><i class="fas fa-check-circle"></i> Lorem ipsum dolor.</li>
+                    <li><i class="fas fa-users"></i> </li>
                 </ul>
                 <ul>
-                    <li><li><i class="fas fa-water"></i> Lorem ipsum dolor.</li>
-                </ul>
-                <ul>
-                    <li><i class="fas fa-users"></i> Lorem ipsum dolor.</li>
+                    <li>
+                        <ion-icon name="arrow-dropdown-circle" style="color: yellow" size="large"></ion-icon>
+                    </li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="footer">
-        <i id="fa"  class="fab fa-facebook-f fa-2x"></i> 
-        <i id="tw" class="fab fa-twitter fa-2x"></i>
-        <i id="in" class="fab fa-instagram fa-2x"></i>
-        <i id="pi" class="fab fa-pinterest-p fa-2x"></i>
-    </div>     
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
