@@ -3,123 +3,44 @@
 
 <head>
     <meta charset="UTF-8">
-    </meta>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </meta>
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    </meta>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    </link>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    </link>
 
     <link rel="stylesheet" href="../css/mapa.css">
-    </link>
 
     <link rel="stylesheet" href="../pages/mycss.css">
-    </link>
 
     <link rel="stylesheet" href="../css/Mexicomodificado.css">
-    </link>
 
     <link rel="stylesheet" href="../css/about.css">
-    </link>
+
+    <link rel="stylesheet" href="../css/barraLateral.css">
 
     <title>Mapa</title>
+
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #12233c;">
-        <!-- color -->
+<header>
+    <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 
-        <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+    <div class="sidebar">
+        <a href="#"><img src=""></a>
+        <ul class="menu">
+            <li><a href="#">home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Map</a></li>
+            <li><a href="#">Social</a></li>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../pages/index.html">
-                            Inicio
-
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/mapa.html">Mapa</a>
-                        
-                        <li class="nav-item">
-                        <a class="nav-link" href="../pages/index.html#about">Contacto</a>
-                    </li>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="d-flex flex-row bd-highlight mb-3">
-        <div class="align-items-start" id="instructions">
-            <h2 class="instructions__title">Instrucciones</h2>
-
-            <br>
-
-            <p class="instructions__text">
-                <b id="numbers">3.</b>
-
-                Envia los resultados a tu correo.
-            </p>
-
-            <!-- Button trigger modal -->
-
-            <div id="b">
-                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">Enviar Información</button>
-            </div>
-
-            <!-- Modal -->
-
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalCenterTitle">Enviar Información</h5>
-
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-
-                        <div class="modal-body">
-                            <form>
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Nombre De La Empresa</label>
-
-                                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Empresa"></input>
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput2">Correo</label>
-
-                                    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="ejemplo@gmail.com"></input>
-                                </div>
-                            </form>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-
-                            <button type="button" class="btn btn-info">Enviar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div class="row mx-md-n5">
                 <div class="col px-md-5">
@@ -155,7 +76,49 @@
                     </div>
                 </div>
             </div>
+        </ul>
+    </div>
+</header>
+
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #12233c;">
+        <!-- color -->
+
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../pages/index.html">
+                            Inicio
+
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/mapa.html">Mapa</a>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/index.html#about">Contacto</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
+
+    <div class="d-flex flex-row bd-highlight mb-3">
+        <div class="align-items-start">
+
+        </div>
+
+
 
 
         <!-- Aqui comienza todo el mapa -->
@@ -3223,7 +3186,7 @@
                     <div class="modal-body">
                         <div class="container-all">
                             <div class="container-form">
-                                <img src="" width="25%" >
+                                <img src="" class="">
                                 <h2 class="title">
                                     <strong>Victoria de Durango</strong>
                                 </h2>
@@ -3240,18 +3203,17 @@
                             </div>
 
                             <div class="container-text">
-                                <img class="ImgDerecha" src="../img/EstadosLogos/Durango.png">
-                                <br>
-                                 
+                                <img src="../img/gmail.png" width="25%" style="margin-left: 75%">
                                 <div class="capa"></div>
-                               
+                                <h1 class="title-description">Informacion.</h1>
+                                <br>
+                                <p class="text-description">Descripcion</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-</div>
-        
+        </div>
 
         <!-- Modal Nayarit -->
         <div id="NayaritModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -3569,7 +3531,7 @@
                                 </form>
                             </div>
                             <div class="container-text">
-                                <img  class="ImgDerecha" src="../img/gmail.png">
+                                <img src="../img/gmail.png" width="25%" style="margin-left: 75%">
                                 <div class="capa"></div>
                                 <h1 class="title-description">Informacion.</h1>
                                 <br>
@@ -3965,7 +3927,7 @@
             </div>
         </div>
 
-        <!-- Modal  Tlaxcala -->
+        <!-- Modal Distrito Tlaxcala -->
         <div id="TlaxcalaModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
@@ -4007,10 +3969,14 @@
             <i id="pi" class="fab fa-pinterest-p fa-2x"></i>
         </div>
 
+
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+        <script src="../js/script.js"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     </div>
 </body></html>
