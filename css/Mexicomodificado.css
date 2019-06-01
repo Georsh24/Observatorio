@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body{
+    background-color: #7f9fd8;
+}
+
 @font-face {
     font-family: "Arial";
     src: url("#FontID0") format(svg)
