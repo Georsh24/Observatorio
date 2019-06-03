@@ -130,14 +130,6 @@ body{
     cursor: pointer;
 }
 
-.NuevoLeon {
-     fill: #F7DDAA;
-}
-
-.NuevoLeon:hover {
-    fill: #4169E1;
-    cursor: pointer;
-}
 
 .Nayarit {
      fill: #F7DDAA;
@@ -363,10 +355,19 @@ body{
     fill: #4169E1;
     cursor: pointer;
 }
+
 /*Tamaño Mapa*/
 svg {
     width: 100%;
-    margin-top: 0px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 1%;
+    margin-left: 18%;
+    margin-right: 17%;
+}
+@media (min-width: 300px) and (max-width: 1200px){
+    svg{
+        width: 100%;
+        margin-top: 3%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 }
