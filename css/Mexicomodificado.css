@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-color: #7f9fd8;
+    background-color: whitesmoke;
 }
 
 @font-face {
@@ -63,7 +63,7 @@ body{
 }
 
 .BajaCalifornia:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -72,7 +72,7 @@ body{
 }
 
 .BajaCaliforniaSur:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -81,7 +81,7 @@ body{
 }
 
 .Durango:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -90,7 +90,7 @@ body{
 }
 
 .Sinaloa:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -99,7 +99,7 @@ body{
 }
 
 .Coahuila:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -108,7 +108,7 @@ body{
 }
 
 .Chihuahua:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -117,7 +117,7 @@ body{
 }
 
 .Sonora:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -126,7 +126,7 @@ body{
 }
 
 .Zacatecas:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -136,7 +136,7 @@ body{
 }
 
 .Nayarit:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -145,7 +145,7 @@ body{
 }
 
 .Aguascalientes:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -154,7 +154,7 @@ body{
 }
 
 .Jalisco:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -163,7 +163,7 @@ body{
 }
 
 .Yucatan:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -172,7 +172,7 @@ body{
 }
 
 .SanLuisPotosi:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -181,7 +181,7 @@ body{
 }
 
 .NuevoLeon:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -190,7 +190,7 @@ body{
 }
 
 .Michoacan:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -199,7 +199,7 @@ body{
 }
 
 .Colima:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -208,7 +208,7 @@ body{
 }
 
 .Guanajuato:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -217,7 +217,7 @@ body{
 }
 
 .Tamaulipas:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -226,7 +226,7 @@ body{
 }
 
 .Tlaxcala:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -235,7 +235,7 @@ body{
 }
 
 .Queretaro:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -244,7 +244,7 @@ body{
 }
 
 .Guerrero:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -253,7 +253,7 @@ body{
 }
 
 .Puebla:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -262,7 +262,7 @@ body{
 }
 
 .Morelos:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -271,7 +271,7 @@ body{
 }
 
 .Veracruz:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -280,7 +280,7 @@ body{
 }
 
 .Oaxaca:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -289,7 +289,7 @@ body{
 }
 
 .Chiapas:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -298,7 +298,7 @@ body{
 }
 
 .Tabasco:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -307,7 +307,7 @@ body{
 }
 
 .Campeche:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -316,7 +316,7 @@ body{
 }
 
 .QuintanaRoo:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -325,7 +325,7 @@ body{
 }
 
 .DistritoFederal:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -334,7 +334,7 @@ body{
 }
 
 .Tabasco:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -343,7 +343,7 @@ body{
 }
 
 .Toluca:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
@@ -352,7 +352,7 @@ body{
 }
 
 .Hidalgo:hover {
-    fill: #4169E1;
+    fill: #05167D;
     cursor: pointer;
 }
 
